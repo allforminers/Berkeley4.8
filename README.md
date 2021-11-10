@@ -19,7 +19,7 @@ cd db-4.8.30/dbinc
 
 **************************
 
-nano atomic.h
+nano atomic.h or copy replace
 
 change txt line for this
 
