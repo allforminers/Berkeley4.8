@@ -23,9 +23,13 @@ nano atomic.h
 
 change txt line for this
 
-147 __atomic_compare_exchange_db((p), (o), (n)) 
+147 
 
-179 static inline int __atomic_compare_exchange_db(
+__atomic_compare_exchange_db((p), (o), (n)) 
+
+179 
+
+static inline int __atomic_compare_exchange_db(
 
 save
 
