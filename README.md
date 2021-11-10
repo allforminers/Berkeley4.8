@@ -1,3 +1,6 @@
+Berkley ubuntu 18
+
+
 sudo add-apt-repository ppa:bitcoin/bitcoin
 
 sudo apt-get update
@@ -31,7 +34,26 @@ make -j8
 
 make install
 
-Also commonly fixes :
-libdb_cxx headers missing ubuntu
-found berkeley db other than 4.8, required for portable wallets
-berkeley db 4.8 ubuntu
+
+
+git clean -dxf
+
+make clean
+
+chmod 777 ./autogen.sh
+
+chmod 777 ./configure
+
+chmod 777 ./share/genbuild.sh
+
+chmod 777 ./src/secp256k1/autogen.sh
+
+chmod 777 ./src/leveldb/build_detect_platform
+
+autoconf
+
+./configure --disable-tests --disable-bench --without-gui
+
+make -j8
+
+
