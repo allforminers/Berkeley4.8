@@ -61,6 +61,8 @@ chmod 777 ./src/secp256k1/autogen.sh
 
 chmod 777 ./src/leveldb/build_detect_platform
 
+./autogen.sh
+
 ./configure --disable-tests --disable-bench --without-gui
 
 make -j8
