@@ -7,6 +7,8 @@ sudo apt-get update
 
 sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
+**************************
+
 git clone https://github.com/allforminers/Berkeley4.8.git
 
 cd Berkeley4.8
@@ -15,8 +17,9 @@ unzip db-4.8.30.zip
 
 cd db-4.8.30/dbinc
 
-nano atomic.h
+**************************
 
+nano atomic.h
 
 change txt line for this
 
@@ -26,6 +29,8 @@ change txt line for this
 
 save
 
+**************************
+
 cd build_unix/
 
 ../dist/configure --prefix=/usr/local --enable-cxx
@@ -34,7 +39,7 @@ make -j8
 
 make install
 
-
+**************************
 
 git clean -dxf
 
@@ -57,3 +62,4 @@ autoconf
 make -j8
 
 
+**************************
