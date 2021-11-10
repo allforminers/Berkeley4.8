@@ -6,6 +6,8 @@ sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
 git clone https://github.com/allforminers/Berkeley4.8.git
 
+cd Berkeley4.8
+
 unzip db-4.8.30.zip
 
 cd db-4.8.30/dbinc
