@@ -4,13 +4,13 @@ sudo apt-get update
 
 sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
-OR
-
-wget http://download.oracle.com/berkeley-db/db-4.8.30.zip
+git clone https://github.com/allforminers/Berkeley4.8.git
 
 unzip db-4.8.30.zip
 
-cd db-4.8.30
+cd db-4.8.30/dbinc
+
+nano atomic.h
 
 cd build_unix/
 
